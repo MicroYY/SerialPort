@@ -23,7 +23,11 @@ namespace MySerialPort
 
             _myserialPort.Open();
             _continue = true;
-            readThread.Start();
+
+            if (_myserialPort.IsOpen)
+                Console.WriteLine("Connected.");
+
+            readThread.Start();           
 
         }
 
@@ -34,7 +38,12 @@ namespace MySerialPort
                 try
                 {
                     string message = _myserialPort.ReadLine();
-                    Console.WriteLine(message);
+                    Console.WriteLine("Received data:{0}",message);
+                    Console.WriteLine("OK\n");
+                    for (int i = 0; i < 1000000; i++)
+                    {
+
+                    }
                 }
                 catch (TimeoutException) { }
             }
