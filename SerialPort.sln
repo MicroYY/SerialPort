@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPort", "SerialPort\SerialPort.csproj", "{C450F602-AA61-402E-B3D0-A7C9765595BB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySerialPort", "MySerialPort\MySerialPort.csproj", "{C312CB6F-FF81-46F8-A4C0-192D745D419C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNewSerialPort", "SerialPortWinFormVersion\MyNewSerialPort.csproj", "{8EF6F20B-785C-47EF-AD51-7CDB129A314B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortDataReceived", "PortDataReceived\PortDataReceived.csproj", "{D16E81F3-39D7-457B-BD90-A4EA007D21B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C312CB6F-FF81-46F8-A4C0-192D745D419C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C312CB6F-FF81-46F8-A4C0-192D745D419C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C312CB6F-FF81-46F8-A4C0-192D745D419C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF6F20B-785C-47EF-AD51-7CDB129A314B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF6F20B-785C-47EF-AD51-7CDB129A314B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF6F20B-785C-47EF-AD51-7CDB129A314B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF6F20B-785C-47EF-AD51-7CDB129A314B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16E81F3-39D7-457B-BD90-A4EA007D21B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16E81F3-39D7-457B-BD90-A4EA007D21B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16E81F3-39D7-457B-BD90-A4EA007D21B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16E81F3-39D7-457B-BD90-A4EA007D21B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
